@@ -10,5 +10,5 @@ cscript //nologo ospp.vbs /act | find /i "successful" && (echo.&echo ===========
 explorer "http://MSGuides.com"&goto halt
 :notsupported
 echo.&echo ============================================================================&echo Sorry! Your version is not supported.&echo Please try installing the latest version here: bit.ly/downloadmsp
-:halt
+:halt 
 pause >nul
